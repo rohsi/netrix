@@ -8,7 +8,7 @@
 .theultimate {
     background-image: linear-gradient(to left, rgb(115, 28, 135), rgba(52, 78, 69, 0.5)), url("img/hero.jpeg");
     height: 80vh;
-    width: 190vh;
+    width: 50%;
     background-size: cover;
     opacity: 0.5;
 }
@@ -96,4 +96,20 @@ body {
     height: 70px;
     width: 70px;
     border-radius: 50%;
+    margin-left: 13rem;
+
+
+}
+.aum{
+    margin-top: 8rem;
+    margin-left: 15rem;
+}
+
+.Rohit{
+    margin-left: .5rem;
+    float: right;
+}
+.p{
+    margin-left: 18rem;
+    margin-top: -3rem;
 }
