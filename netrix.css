@@ -1,0 +1,99 @@
+.sidebar {
+    background-color: green;
+    width: 100px;
+    height: 1000px;
+
+}
+
+.theultimate {
+    background-image: linear-gradient(to left, rgb(115, 28, 135), rgba(52, 78, 69, 0.5)), url("img/hero.jpeg");
+    height: 80vh;
+    width: 190vh;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.main{
+    display: flex;
+    justify-content: left;
+}
+.youroownhome{
+    display: flex;
+    justify-content: left;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heade {
+    height: 2rem;
+    margin-top: 3rem;
+    margin-left: 50vh;
+}
+
+.list {
+    margin-top: 10rem;
+    margin-left: 8rem;
+}
+
+.freedom {
+    font-size: 2rem;
+    margin-left: 8rem;
+    margin-top: -.5rem;
+}
+
+.feat {
+    margin-left: 8rem;
+    background-color: orange;
+    border: none;
+    padding: 1.4rem 2rem;
+}
+
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 10rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: black;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.bbc{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ra{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
