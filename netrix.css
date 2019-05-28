@@ -1,7 +1,7 @@
 .sidebar {
     background-color: green;
     width: 6%;
-    height: 1000vh;
+    height: 495.6vh;
 }
 
 .content {
@@ -176,7 +176,7 @@ body {
 }
 
 .worldsbest {
-    height: 8%;
+    height: 17%;
     position: relative;
 
 }
@@ -270,22 +270,30 @@ body {
     justify-content: space-between;
     margin: 2rem;
 
-
 }
-.pa{
+
+.pa {
     margin-left: 3rem;
     margin-top: -1.3rem;
 }
-.home__name{
+
+.home__name {
     text-align: center;
+    background-color: orange;
+    padding: 1rem;
+    margin-top: -3rem;
+    z-index: 5;
+    position: relative;
 }
-.musa{
+
+.musa {
     display: flex;
     justify-content: space-between;
     margin: 2rem;
 
 }
-.da{
+
+.da {
     margin: 0 auto;
     display: block;
     background-color: indianred;
@@ -293,38 +301,44 @@ body {
     padding-left: 6.1rem;
     border: none;
 }
-.sda1{
+
+.sda1 {
     background-color: pink;
 }
-.astwq{
+
+.astwq {
     height: 217px;
     width: 326px;
 }
-.s333{
+
+.s333 {
     display: flex;
     justify-content: center;
     margin: 5rem 0 0 0;
 }
+
 .s333 > div {
     margin: 31px;
 }
 
-
-.susadas{
+.susadas {
     display: flex;
     justify-content: space-between;
     margin: 2rem;
 }
-.pat{
+
+.pat {
     margin-left: 3rem;
     margin-top: -1.3rem;
 }
-.musat{
+
+.musat {
     display: flex;
     justify-content: space-between;
     margin: 2rem;
 }
-.dat{
+
+.dat {
     margin: 0 auto;
     display: block;
     background-color: indianred;
@@ -332,7 +346,139 @@ body {
     padding-left: 6.1rem;
     border: none;
 }
-.aalo{
+
+.aalo {
     background-color: pink;
 }
 
+.rd {
+    height: 130vh;
+}
+
+.img1 {
+
+    object-fit: cover;
+}
+
+.art {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 10px;
+    padding: 1rem;
+
+}
+
+.ar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.i1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.i2{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.i3{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.i4{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+
+.i5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.i6{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.i7{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.i8{
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+}
+.i9{
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.i10{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
+.i11{
+    grid-column-start: 4;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
+.i12{
+    grid-column-start: 5;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
+.i13{
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+.i14{
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+
+.footer{
+    background-color: black;
+    margin-top:-6rem ;
+    height: 30vh;
+}
+.h,.ma,.sa,.padu{
+    color: white;
+}
+.saa{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
