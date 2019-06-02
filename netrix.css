@@ -229,7 +229,7 @@ body {
 }
 
 .rd {
-    height: 130vh;
+   flex: 1 500px;
 }
 
 .img1 {
@@ -303,9 +303,9 @@ body {
 }
 
 .tita  {
-    width: 127%;
-    grid-column-start: 6;
-    grid-column-end: -1;
+    width: 115%;
+    grid-column-start: 5;
+    grid-column-end: -2;
     grid-row-start: 5;
     grid-row-end: 8;
 }
@@ -667,3 +667,4 @@ body {
         grid-column-end: -1;
     }
 }
+
